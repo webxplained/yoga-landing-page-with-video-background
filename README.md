@@ -9,7 +9,6 @@ A simple yoga landing with created from scratch using HTML5 and CSS3 only.
     * The first proper release
 * 0.0.1
     * Work in progress
-    * 
 
 ## Screenshots
 
