@@ -17,6 +17,8 @@ A simple yoga landing with created from scratch using HTML5 and CSS3 only.
 
 ## Meta
 
+Page creation explained - [@Tutorial](https://youtu.be/8lUWdukads4)- - -
+
 Video source - [@Video by Taryn Elliott from Pexels](https://pexels.com/)- - -
 
 Web Xplained – [@youtube](https://www.youtube.com/channel/UC4sWzrFzcFKCoGYj6PaIsDg) - - -
