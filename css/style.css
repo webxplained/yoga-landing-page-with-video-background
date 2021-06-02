@@ -1,0 +1,236 @@
+/* 
+Created by Web Xplained
+
+Check our youtube channel to know the process behind this project
+https://www.youtube.com/channel/UC4sWzrFzcFKCoGYj6PaIsDg 
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+}
+
+header {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a.logo {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 28px;
+    color: white;
+}
+
+header a.logo img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+header .search-box {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+header .search-box img {
+    width: 16px;
+}
+
+header .search-box input {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: black;
+    max-width: 0;
+}
+
+header .search-box:hover input, header .search-box:active input {
+    max-width: fit-content;
+    margin-left: 5px;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
+h5 {
+    color: skyblue;
+    font-size: 24px;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 68px;
+}
+
+h4 {
+    font-size: 20px;
+    color: rgba(256, 256, 256, 0.7);
+}
+
+main .about {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    z-index: 2;
+    color: white;
+}
+
+.about a.discover {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 60px;
+    font-weight: 500;
+}
+
+.about a.discover img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+main ol.links {
+    position: absolute;
+    top: 30%;
+    right: 8%;
+    z-index: 2;
+    color: white;
+    list-style-type: none;
+}
+
+main ol.links a {
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin: 30px 0;
+    text-align: right;
+    opacity: 0.5;
+    transition: all 0.5s ease-in;
+}
+
+main ol.links a::after {
+    content: '';
+    position: absolute;
+    right: -20px;
+    top: 50%;
+    width: 10px;
+    height: 1px;
+    background-color: white;
+    transition: all 0.5s ease-in;
+}
+
+main ol.links a.active, main ol.links a:hover {
+    opacity: 1;
+    transition: all 0.5s ease-in;
+}
+
+main ol.links a.active::after, main ol.links a:hover::after {
+    right: -40px;
+    width: 30px;
+    transition: all 0.5s ease-in;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    padding: 2% 5%;
+    max-width: 60%;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer ul li {
+    padding-right: 7%;
+}
+
+footer h4 {
+    position: relative;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+footer h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 30px;
+    height: 1px;
+    background-color: rgba(256, 256, 256, 0.7);
+}
+
+footer p {
+    color: rgba(256, 256, 256, 0.7);
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #00F0FF;
+}
+
+/* 
+Created by Web Xplained
+
+Check our youtube channel to know the process behind this project
+https://www.youtube.com/channel/UC4sWzrFzcFKCoGYj6PaIsDg 
+
+*/
